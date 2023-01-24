@@ -1,0 +1,136 @@
+ScrollViewExample:
+
+
+
+<ScrollViewExample@ScrollView>:
+   # orientation: "rl-bt"
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<GridLayoutExample@GridLayout>:
+    # This layout need rows and columns
+    cols: 2
+    Button:
+        text: "A"
+        size_hint: None, 1
+        width: '70dp'
+    BoxLayoutExample:
+    Button:
+        text: "C"
+        size_hint: None, 1
+        width: '70dp'
+    Button:
+        text: "D"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# <GridLayoutExample>:
+#     anchor_x: "center"
+#     anchor_y: 'top'
+#     BoxLayout:
+#         size_hint: .1,.2
+#         Button:
+#             text: "A"  
+#         Button:
+#             text: "B"
+    
+        
+
+
+
+
+
+
+<BoxLayoutExample>:
+    # orientation: 'vertical'
+    orientation: 'horizontal'
+    Button:
+        text: 'A'
+        # size: '20dp', '100dp'
+        size_hint: .5, .5
+        width: '100dp'
+        height: '500dp'
+        pos_hint: {"top": .5}
+
+
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: '10dp'
+        Button:
+            text: 'B1'
+        Button:
+            text: 'B2'
+        Button:
+            text: 'B3'
+        Button:
+            text: 'B4'
+        Button:
+            text: 'B5'
+
+    Label:
+        text: 'C'
+
+
+<MainWidget>:
+    Button:
+        text: "Milan"
+        size: '100dp','80dp'
+        pos: '100dp','200dp'
+        color: 'red'
+        font_name: 'Roboto'
+        
+    Button:
+        text: "Milan2"
+        size: '100dp', '80dp'
+        pos: '200dp', '200dp'
+        color: 1,0,0,1
+        font_name: "Arial"
+        
